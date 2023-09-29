@@ -1,0 +1,33 @@
+{
+  "name": "vue3-histoire-web-components-library",
+  "version": "0.0.2",
+  "description": "Vue3 Histoire Web Components Library",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "release": "npm run build && npm pack",
+    "watch": "npm run build && npx http-server ./dist",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3"
+  ],
+  "dependencies": {
+    "@types/node": "^20.6.5",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@histoire/plugin-vue": "^0.17.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "histoire": "^0.17.2",
+    "sass": "^1.67.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
