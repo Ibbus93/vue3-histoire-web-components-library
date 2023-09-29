@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "release": "npm run build && npm pack",
+    "release-story": "npm run story:build && gh-pages -d .histoire/dist",
     "watch": "npm run build && npx http-server ./dist",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "story:preview": "histoire preview",
+    "predeploy": "npm run story:build",
+    "deploy": "gh-pages -d .histoire/dist"
   },
   "keywords": [
     "vue",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "@histoire/plugin-vue": "^0.17.1",
     "@vitejs/plugin-vue": "^4.2.3",
+    "gh-pages": "^6.0.0",
     "histoire": "^0.17.2",
     "sass": "^1.67.0",
     "typescript": "^5.0.2",
