@@ -8,4 +8,5 @@ export default defineConfig({
     defaultColorScheme: 'dark',
     storeColorScheme: true,
   },
+  outDir: "histoire-dist"
 })
