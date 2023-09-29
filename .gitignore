@@ -71,6 +71,9 @@ dist
 # vuepress build output
 .vuepress/dist
 
+# histoire build output
+.histoire/dist
+
 # Serverless directories
 .serverless
 
