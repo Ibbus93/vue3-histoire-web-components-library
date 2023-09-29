@@ -1,0 +1,27 @@
+{
+  "stories": [
+    {
+      "id": "src-components-basebutton-basebutton-story-vue",
+      "title": "BaseButton",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/components/BaseButton/BaseButton.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "BaseButton"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    }
+  ],
+  "markdownFiles": []
+}
